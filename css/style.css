@@ -1,0 +1,26 @@
+:root{
+    --color1:#000000;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+.side-bar{
+    background-color:var(--color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 20%;
+    gap: 10px;
+    height: 90vh;
+
+}
+
+.side-bar a{
+    color: white;
+    padding: 10px;
+}
+.side-bar .text-span{
+    display: none;
+}
