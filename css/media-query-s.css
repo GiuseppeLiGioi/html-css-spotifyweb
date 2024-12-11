@@ -1,0 +1,39 @@
+@media screen and (min-width: 480px){
+    .side-bar{
+    align-items:start;
+    min-width: 20%;
+    }
+    .side-bar .logo{
+        margin-bottom: 20px;
+        max-width: 50%;
+        max-height: 30%;
+    }
+    .side-bar .text-span{
+        display: inline-block;
+    }
+    .playlist-top{
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 10px;
+        
+    }
+    .playlist-top li{
+        margin-top: 10px;
+    }
+    .playlist-top a{
+       color: gray;
+    }
+    .playlist-top .text-span{
+        color: gray;
+     }
+     .element-sidebar-bottom .text-span{
+        color: white;
+     }
+    .hr-disp{
+        display: inline-block;
+        fill: gray;
+        margin-bottom: 5px;
+    }
+}

@@ -10,17 +10,51 @@
     background-color:var(--color1);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    max-width: 20%;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 10%;
     height: 90vh;
 
 }
 
-.side-bar a{
+.element-sidebar-top a{
     color: white;
-    padding: 10px;
+    gap: 20px;
+    
+   
 }
-.side-bar .text-span{
+.element-sidebar-bottom a{
+    color: gray;
+    gap: 20px;
+    
+   
+}
+ .text-span{
+    margin-left: 5px;
+    text-align: center;
     display: none;
 }
+.playlist-top{
+display: none;
+}
+.element-sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+}
+
+
+ .element-sidebar-bottom svg{
+    fill: gray;
+    max-height:40px;
+    max-width: 30%;
+    margin-left: 10px;  
+
+}
+.hr-disp{
+    display: none;
+}
+
+
+
+
