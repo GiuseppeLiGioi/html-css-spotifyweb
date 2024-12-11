@@ -64,6 +64,8 @@ display: none;
     align-items: center;
     padding: 10px 0;
 
+    position: sticky;
+
 }
 .top-bar button{
 background-color: var(--color2);
