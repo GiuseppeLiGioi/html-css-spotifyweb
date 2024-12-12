@@ -10,4 +10,13 @@
     .element-top-main .first-line-list li{
         flex-basis: calc(100% / 5 - 10px);
     }
+    .element-top-main li{
+        font-size: 12px;
+    }
+    #title-main{
+        color: white;
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
 }

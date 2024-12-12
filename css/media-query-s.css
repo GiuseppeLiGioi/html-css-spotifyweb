@@ -89,6 +89,11 @@
         
         font-size: 14px;
     }
-   
+    #title-main{
+        color: white;
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
    
 }
