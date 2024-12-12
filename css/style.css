@@ -1,6 +1,9 @@
 :root{
     --color1:#000000;
     --color2:rgb(8, 11, 18);
+    --main:#141922;
+    --line:#ADFF2F;
+    --footer:#282828;
 }
 
 .container{
@@ -72,10 +75,14 @@ margin-top: 40px;
 .hr-disp{
     display: none;
 }
+.layout-right{
+    width: 90vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
 .top-bar{
     background-color:var(--color2) ;
-    width: 90vh;
-    height: 10vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -93,6 +100,13 @@ border: 2px solid white;
 border-radius: 25%;
 max-height: 60px;
 padding: 10px;
+z-index: 1;
+}
+
+.scroll-main{
+border: 3px solid green;
+background-color: var(--main);
+height: 90vh
 }
 
 
