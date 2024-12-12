@@ -8,6 +8,15 @@
         max-width: 50%;
         max-height: 30%;
     }
+    .logo img[alt$="small"]{
+        display: none;
+    }
+    .logo img[alt$="big"]{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+        display: inline-block;
+    }
     .side-bar .text-span{
         display: inline-block;
     }
