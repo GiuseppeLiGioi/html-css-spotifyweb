@@ -18,6 +18,7 @@
 
 }
 
+
 .element-sidebar-top a{
     color: white;
     gap: 20px;
@@ -26,6 +27,9 @@
 }
 .logo img[alt$="big"]{    
 display: none;
+}
+.element-sidebar-bottom ul li a span{
+    display: inline;
 }
 .element-sidebar-bottom a{
     color: gray;
@@ -40,7 +44,17 @@ display: none;
 }
 .playlist-top{
 display: none;
+margin-top: 40px;
 }
+.playlist-top h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.playlist-top .icon{
+    color: gray;
+}
+
+
 .element-sidebar-bottom{
     display: flex;
     flex-direction: column;
