@@ -1,6 +1,6 @@
 :root{
     --color1:#000000;
-    --color2:rgb(8, 11, 18);
+    --color2:rgb(8, 11, 18, 0.7);
     --main:#141922;
     --line:#ADFF2F;
     --footer:#282828;
@@ -138,12 +138,92 @@ height: 90vh
 .element-top-main li{
     font-size: 7px;
 }
+.scroll-main{
+    overflow: scroll;
+}
+.Create-for h3,
 #title-main{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 1rem;
+    margin-bottom: 10px;
     margin-left: 20px;
 }
+.container-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.container-cards .card{
+flex-basis: calc(100% / 2 - 10px);
+display: flex;
+flex-direction: column;
+gap: 10px;
+text-align: center;
+text-transform: capitalize;
+}
+.container-cards .card img{
+width: 100%;
+}
+.card-foryou h4,
+.card-foryou2 h4,
+.container-cards .card h4{
+color: white;
+font-size: 14px;
+}
+.container-cards .card span{
+color: gray;
+font-size: 8px;
+    
+}
+.Create-for{
+    margin-top: 20px;
+    display: none;
+}
+.Create-for p{
+    color: gray;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.container-cards-foryou2,
+.container-cards-foryou{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    margin-left: 20px;
+    
+}
+.container-cards-foryou .card-foryou2,
+.container-cards-foryou .card-foryou{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.container-cards-foryou .card-foryou2 img,
+.container-cards-foryou .card-foryou img{
+  flex-basis: calc(100% / 2 - 10px);
+  width: 100%;
+  margin-top: 10px;
+    
+}
+.container-cards-foryou .card-foryou2 img{
+    /*border: 1px solid white;*/
+    border-radius: 50%;
+}
+
+
+
 
 
 

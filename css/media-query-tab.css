@@ -19,4 +19,29 @@
         margin-top: 1rem;
         margin-left: 20px;
     }
+    .container-cards{
+        justify-content: flex-start;
+        margin-left: 10px;
+        
+    }
+
+    .container-cards .card{
+        flex-basis: calc(100% / 4 - 10px); 
+        
+    }
+    .container-cards .card h4{
+        color: white;
+        font-size: 14px;
+    }
+        .container-cards .card span{
+        color: gray;
+        font-size: 14px;
+            
+    }
+    .Create-for{
+        display: inline-block;
+    }
+    
+
+    
 }
