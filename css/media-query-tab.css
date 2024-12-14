@@ -41,7 +41,31 @@
     .Create-for{
         display: inline-block;
     }
-    
+    .bottom-bar h6{
+        font-size: 20px;
+
+    }
+    .bottom-bar-left-text{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .bottom-bar-left-icon{
+        flex-direction: row;
+        gap: 10px; 
+    }
+    .fa-bars, .fa-tv{
+        display: inline-block;
+    }
+    .bottom-bar-center .bottom-bar-center__top{
+       font-size: 25px;
+        
+    }
+    .bottom-bar-right{
+        margin-left: 10%;
+    }
+    .bottom-bar-right hr{
+        width: 100px;
+    }
 
     
 }

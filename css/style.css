@@ -18,6 +18,7 @@
     align-items: center;
     min-width: 10%;
     height: 90vh;
+    
 
 }
 
@@ -78,7 +79,7 @@ margin-top: 40px;
 .layout-right{
     width: 90vh;
     height: 90vh;
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 .top-bar{
@@ -221,6 +222,90 @@ font-size: 8px;
     /*border: 1px solid white;*/
     border-radius: 50%;
 }
+ .bottom-bar{
+    background-color: var(--footer);
+    width: 100vh;
+    height: 10vh;
+    display: flex;
+    align-items: center; 
+}
+.bottom-bar a, h6{
+    color: white;
+}
+.bottom-bar span{
+    color: gray;
+    
+}
+.fa-bars, .fa-tv{
+    display: none;
+}
+.bottom-bar .bottom-bar-left{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 10px;
+
+}
+.bottom-bar-left .bottom-bar-left-img img{
+   height: 40px;
+   width: 40px;
+}
+.bottom-bar-left-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 1;
+}
+.bottom-bar-left-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+
+
+.bottom-bar-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-left: 40px;
+    line-height: 1;
+    width: 20%;
+    gap: 10px;
+ 
+   
+}
+.bottom-bar-center .bottom-bar-center__top{
+    display: flex;
+    gap: 10px;
+}
+.bottom-bar-center .bottom-bar-center__bottom{
+    display: flex;
+    gap: 10px;
+}
+.bottom-bar-center .bottom-bar-center__bottom hr{
+    rotate: 90deg;
+    margin: 0 5px;
+    color: white;
+    
+}
+
+.bottom-bar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bottom-bar-right hr{
+    width: 30px;
+}
+
+
+
+
+
 
 
 

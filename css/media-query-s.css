@@ -95,6 +95,22 @@
         margin-top: 1rem;
         margin-left: 20px;
     }
+    .bottom-bar .bottom-bar-left{
+       font-size: 20px;
+       margin-left: 10px;
+    
+    }
+    .bottom-bar-center .bottom-bar-center__top{
+        gap: 30px;
+        
+    }
+    .bottom-bar-center .bottom-bar-center__bottom{
+        gap: 30px;
+    }
+    .bottom-bar h6{
+        font-size: 12px;
+
+    }
     
 
    
